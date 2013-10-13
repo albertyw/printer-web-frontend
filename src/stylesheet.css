@@ -1,0 +1,38 @@
+body{
+    background-color:#22FFFF;
+}
+#bodyContainer{
+    width:500px;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#FFFFFF;
+}
+#bodyHeader{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding:15px;
+}
+#bodyHeader a{
+    text-decoration:none;
+}
+#bodySpacer{
+    height:10px;
+    background-color:#22FFFF;
+}
+#bodyContent{
+    padding:10px;
+}
+#bodyFooter{
+    text-align:center;
+    font-size:10px;
+    margin-top:100px;
+    height:10px;
+}
+#submitForm{
+    margin:10px;
+}
+#badNumCopies, #pdfConversionSuccess, #pdfConversionFail, #printSuccess, #printFail{
+     display:none;
+ }
